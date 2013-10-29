@@ -9,10 +9,12 @@
 </head>
 <body>
 	<div id="page">
-		<h1>Web Audio API Introduction</h1>
+		<h1>Music Player using Web Audio API</h1>
 		<div id="content">
 			<div id="dropZone">Drag and Drop a MP3 file here</div>
 			<div id="status">No files dragged</div>
+			<div class="volumeControl alignCenter"><input id='volume' type='range' min='0' max='100' value='50'><span>(Volume<em></em>)</span></div>
+			<button id="bufferLoader" class="dispNone">Load files from server</button>
 		</div>
 	</div>
 
